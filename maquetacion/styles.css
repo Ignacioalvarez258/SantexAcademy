@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #201b24;
+}
+p {
+    margin-right: 2.85em;
+    font-size: 1em;
+    font-weight: 500;
+}
+h1 {
+    padding-top: 1.85em;
+    margin: 0px 12.14em;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1.2;
+    letter-spacing: -o,4px;
+    font-weight: 600;
+    color: #201b24;
+
+}
+
+button.redondo {
+    background-color: #fff;
+    border: 0.14em solid #111;
+    border-radius: 25px;
+    padding: 0px 0.7em;
+    height: 2.28em;
+    color: #201b24;
+}
+button.redondo:hover {
+    background-color: #111;
+    color: #fff;
+    border: 0.14em solid #111;
+    border-radius: 25px;
+    padding: 0px 0.7em;
+    height: 2.28em;
+}
+button#bt-header{
+    background-color: #fff;
+    border: 0.14em solid #111;
+    border-radius: 25px;
+    padding: 0px 0.7em;
+    height: 2.28em;
+}
+
+button#bt-sumate{
+    background-color: #fff;
+    border: 0.14em solid #6b53f0;
+    color:#6b53f0;
+    border-radius: 25px;
+    padding: 0px 0.7em; 
+    height:  2.28em;
+}
+button#bt-sumate:hover{
+    background-color: #6b53f0;
+    border: 0.14em solid #6b53f0;
+    color:#fff;
+    border-radius: 25px;
+    padding: 0px 0.7em; 
+    height:  2.28em;
+}
+button#bt-header:hover{
+    background-color: #111;
+    color: #fff;
+    border: 0.14em  solid #111;
+    border-radius: 25px;
+    padding: 0px 0.7em; 
+    height:  2.28em;
+}
+img#twp-logo{
+    height: 2.85em;
+    width:  7.1em;  
+    margin-left: 1.48em;
+}
+
+img#instagram-logo{
+    width: 1em;
+    height: 0.89em;  
+    margin-left: 1.48em;
+}
+img#linkedin-logo{
+    width: 1em;
+    height: 0.89em;  
+    margin-left: 1.48em;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+@media(width >=4000px){
+    body{
+        font-size: 28px;
+    }
+}
+
+@media(width >=3000px){
+    body{
+        font-size: 21px;
+    }
+}
